@@ -10,12 +10,13 @@
 
 
 ### Mac
-|:----------:|:--------------:|
+|新键位|原键位|
+|:----------:|:---------------:|
 |caps + hjkl|left down up right|
 |caps + shift|caps|
 |caps + [ |home|
 |caps + ] |end|
-|caps (alone)|Escape|
+|caps (alone) |Escape|
 ### .oh my zsh配置
 - 插件（autosuggesions，git）
 - 主题
