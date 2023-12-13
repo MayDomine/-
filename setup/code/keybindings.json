@@ -557,12 +557,12 @@
     {
         "key": "m",
         "command": "git.commitMessageAccept",
-        "when": "!sideBarFocus && activeViewlet== 'workbench.view.scm' && inputFocus"
+        "when": "vim.mode == 'Normal' && resourceLangId == 'git-commit'"
     },
     {
         "key": "q",
         "command": "git.commitMessageDiscard",
-        "when": "!sideBarFocus && activeViewlet == 'workbench.view.scm' && inputFocus"
+        "when": "vim.mode == 'Normal' && resourceLangId == 'git-commit'" 
     },
     {
         "key": "s",
