@@ -1,0 +1,438 @@
+{
+    "whichkey.bindings": [
+        {
+            "key": " ",
+            "name": "Commands",
+            "type": "command",
+            "command": "workbench.action.showCommands"
+        },
+        {
+            "key": "f",
+            "name": "+Files",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "g",
+                    "name": "Show all files in active Group",
+                    "type": "command",
+                    "command": "workbench.action.showEditorsInActiveGroup"
+                },
+                {
+                    "key": "c",
+                    "name": "Copy the path of current file",
+                    "type": "command",
+                    "command": "workbench.action.files.copyPathOfActiveFile"
+                },
+                {
+                    "key": "=",
+                    "name": "Format file",
+                    "type": "command",
+                    "command": "editor.action.formatDocument"
+                },
+                {
+                    "key": "r",
+                    "name": "Recent files",
+                    "type": "command",
+                    "command": "workbench.action.openRecent"
+                },
+                {
+                    "key": "t",
+                    "name": "New file",
+                    "type": "command",
+                    "command": "workbench.action.files.newUntitledFile"
+                },
+                {
+                    "key": "w",
+                    "name": "Close file",
+                    "type": "command",
+                    "command": "workbench.action.closeActiveEditor"
+                },
+                {
+                    "key": "W",
+                    "name": "Close all files",
+                    "type": "command",
+                    "command": "workbench.action.closeAllEditors"
+                },
+                {
+                    "key": "x",
+                    "name": "Delete file",
+                    "type": "command",
+                    "command": "workbench.action.files.delete"
+                },
+                {
+                    "key": "X",
+                    "name": "Delete file permanently",
+                    "type": "command",
+                    "command": "workbench.action.files.deleteForever"
+                },
+                {
+                    "key": "o",
+                    "name": "Open file",
+                    "type": "command",
+                    "command": "workbench.action.files.openFile"
+                },
+                {
+                    "key": "p",
+                    "name": "Open file in new window",
+                    "type": "command",
+                    "command": "workbench.action.files.newWindow"
+                }
+            ]
+        },
+        {
+            "key": "t",
+            "name": "Terminal",
+            "type": "command",
+            "command": "workbench.action.terminal.focus"
+        },
+        {
+            "key": "n",
+            "name": "Explorer",
+            "type": "command",
+            "command": "workbench.files.action.focusFilesExplorer"
+        },
+        {
+            "key": "?",
+            "name": "Search keybindings",
+            "type": "command",
+            "command": "whichkey.searchBindings"
+        },
+        {
+            "key": ".",
+            "name": "Repeat most recent action",
+            "type": "command",
+            "command": "whichkey.repeatMostRecent"
+        },
+        {
+            "key": "g",
+            "name": "+Git",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "b",
+                    "name": "Checkout",
+                    "type": "command",
+                    "command": "git.checkout"
+                },
+                {
+                    "key": "c",
+                    "name": "Commit",
+                    "type": "command",
+                    "command": "git.commit"
+                },
+                {
+                    "key": "d",
+                    "name": "Delete Branch",
+                    "type": "command",
+                    "command": "git.deleteBranch"
+                },
+                {
+                    "key": "f",
+                    "name": "Fetch",
+                    "type": "command",
+                    "command": "git.fetch"
+                },
+                {
+                    "key": "i",
+                    "name": "Init",
+                    "type": "command",
+                    "command": "git.init"
+                },
+                {
+                    "key": "m",
+                    "name": "Merge",
+                    "type": "command",
+                    "command": "git.merge"
+                },
+                {
+                    "key": "p",
+                    "name": "Publish",
+                    "type": "command",
+                    "command": "git.publish"
+                },
+                {
+                    "key": "s",
+                    "name": "Status",
+                    "type": "command",
+                    "command": "workbench.view.scm"
+                },
+                {
+                    "key": "S",
+                    "name": "Stage",
+                    "type": "command",
+                    "command": "git.stage"
+                },
+                {
+                    "key": "U",
+                    "name": "Unstage",
+                    "type": "command",
+                    "command": "git.unstage"
+                }
+            ]
+        },
+        {
+            "key": "p",
+            "name": "+Project",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "f",
+                    "name": "Find file in project",
+                    "type": "command",
+                    "command": "workbench.action.quickOpen"
+                },
+                {
+                    "key": "p",
+                    "name": "Switch project",
+                    "type": "command",
+                    "command": "workbench.action.openRecent"
+                },
+                {
+                    "key": "t",
+                    "name": "Show tree/explorer view",
+                    "type": "command",
+                    "command": "workbench.view.explorer"
+                }
+            ]
+        },
+        {
+            "key": "t",
+            "name": "+Toggles",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "c",
+                    "name": "Toggle find case sensitive",
+                    "type": "command",
+                    "command": "toggleFindCaseSensitive"
+                },
+                {
+                    "key": "w",
+                    "name": "Toggle ignore trim whitespace in diff",
+                    "type": "command",
+                    "command": "toggle.diff.ignoreTrimWhitespace"
+                },
+                {
+                    "key": "W",
+                    "name": "Toggle word wrap",
+                    "type": "command",
+                    "command": "editor.action.toggleWordWrap"
+                }
+            ]
+        },
+        {
+            "key": "x",
+            "name": "+Text",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "i",
+                    "name": "Organize Imports",
+                    "type": "command",
+                    "command": "editor.action.organizeImports"
+                },
+                {
+                    "key": "r",
+                    "name": "Rename symbol",
+                    "type": "command",
+                    "command": "editor.action.rename"
+                },
+                {
+                    "key": "R",
+                    "name": "Refactor",
+                    "type": "command",
+                    "command": "editor.action.refactor"
+                },
+                {
+                    "key": ".",
+                    "name": "Quick fix",
+                    "type": "command",
+                    "command": "editor.action.quickFix"
+                },
+                {
+                    "key": "a",
+                    "name": "Find all references",
+                    "type": "command",
+                    "command": "editor.action.referenceSearch.trigger"
+                },
+                {
+                    "key": "u",
+                    "name": "To lower case",
+                    "type": "command",
+                    "command": "editor.action.transformToLowercase"
+                },
+                {
+                    "key": "U",
+                    "name": "To upper case",
+                    "type": "command",
+                    "command": "editor.action.transformToUppercase"
+                },
+                {
+                    "key": "J",
+                    "name": "Move lines down transient",
+                    "type": "commands",
+                    "commands": [
+                        "editor.action.moveLinesDownAction",
+                        "whichkey.showTransient"
+                    ],
+                    "args": [
+                        null,
+                        "whichkey.transient.lineMoving"
+                    ]
+                },
+                {
+                    "key": "K",
+                    "name": "Move lines up transient",
+                    "type": "commands",
+                    "commands": [
+                        "editor.action.moveLinesUpAction",
+                        "whichkey.showTransient"
+                    ],
+                    "args": [
+                        null,
+                        "whichkey.transient.lineMoving"
+                    ]
+                },
+                {
+                    "key": "l",
+                    "name": "+Lines",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "s",
+                            "name": "Sort lines in ascending order",
+                            "type": "command",
+                            "command": "editor.action.sortLinesAscending"
+                        },
+                        {
+                            "key": "S",
+                            "name": "Sort lines in descending order",
+                            "type": "command",
+                            "command": "editor.action.sortLinesDescending"
+                        },
+                        {
+                            "key": "d",
+                            "name": "Duplicate lines down",
+                            "type": "command",
+                            "command": "editor.action.copyLinesDownAction"
+                        },
+                        {
+                            "key": "D",
+                            "name": "Duplicate lines up",
+                            "type": "command",
+                            "command": "editor.action.copyLinesUpAction"
+                        }
+                    ]
+                },
+                {
+                    "key": "d",
+                    "name": "+Delete",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "w",
+                            "name": "Delete trailing whitespace",
+                            "type": "command",
+                            "command": "editor.action.trimTrailingWhitespace"
+                        }
+                    ]
+                },
+                {
+                    "key": "m",
+                    "name": "+Merge conflict",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "b",
+                            "name": "Accept both",
+                            "type": "command",
+                            "command": "merge-conflict.accept.both"
+                        },
+                        {
+                            "key": "c",
+                            "name": "Accept current",
+                            "type": "command",
+                            "command": "merge-conflict.accept.current"
+                        },
+                        {
+                            "key": "i",
+                            "name": "Accept incoming",
+                            "type": "command",
+                            "command": "merge-conflict.accept.incoming"
+                        },
+                        {
+                            "key": "B",
+                            "name": "Accept all both",
+                            "type": "command",
+                            "command": "merge-conflict.accept.all-both"
+                        },
+                        {
+                            "key": "C",
+                            "name": "Accept all current",
+                            "type": "command",
+                            "command": "merge-conflict.accept.all-current"
+                        },
+                        {
+                            "key": "I",
+                            "name": "Accept all incoming",
+                            "type": "command",
+                            "command": "merge-conflict.accept.all-incoming"
+                        },
+                        {
+                            "key": "s",
+                            "name": "Accept selection",
+                            "type": "command",
+                            "command": "merge-conflict.accept.selection"
+                        },
+                        {
+                            "key": "k",
+                            "name": "Compare current conflict",
+                            "type": "command",
+                            "command": "merge-conflict.compare"
+                        },
+                        {
+                            "key": "n",
+                            "name": "Next Conflict",
+                            "type": "command",
+                            "command": "merge-conflict.next"
+                        },
+                        {
+                            "key": "N",
+                            "name": "Previous Conflict",
+                            "type": "command",
+                            "command": "merge-conflict.previous"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "/",
+            "name": "Search in a project",
+            "type": "command",
+            "command": "workbench.action.findInFiles"
+        },
+        {
+            "key": "*",
+            "name": "Search in a project with a selection",
+            "type": "commands",
+            "commands": [
+                "editor.action.addSelectionToNextFindMatch",
+                "workbench.action.findInFiles"
+            ]
+        },
+        {
+            "key": "v",
+            "name": "Smart select/expand region transient",
+            "type": "commands",
+            "commands": [
+                "editor.action.smartSelect.grow",
+                "whichkey.showTransient"
+            ],
+            "args": [
+                null,
+                "whichkey.transient.smartExpand"
+            ]
+        }
+    ]
+}
